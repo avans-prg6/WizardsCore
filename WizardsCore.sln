@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsCore", "WizardsCore\WizardsCore.csproj", "{28C3B5BA-60E8-4369-B46E-6C6E979C727B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardsCore", "WizardsCore\WizardsCore.csproj", "{28C3B5BA-60E8-4369-B46E-6C6E979C727B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsCore.Test.xUnit", "WizardsCore.Test.xUnit\WizardsCore.Test.xUnit.csproj", "{3C819C8B-AD01-4085-8761-60584E70FA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardsCore.Test.xUnit", "WizardsCore.Test.xUnit\WizardsCore.Test.xUnit.csproj", "{3C819C8B-AD01-4085-8761-60584E70FA05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsCore.Test.MSTest", "WizardsCore.Test.MSTest\WizardsCore.Test.MSTest.csproj", "{4F826AAC-4BCB-47F0-B9B2-12766A08F4CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardsCore.Test.MSTest", "WizardsCore.Test.MSTest\WizardsCore.Test.MSTest.csproj", "{4F826AAC-4BCB-47F0-B9B2-12766A08F4CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsCore.Test.MSTest.Uitwerking", "WizardsCore.Test.MSTest.Uitwerking\WizardsCore.Test.MSTest.Uitwerking.csproj", "{A9F2D9A1-0C15-4C96-872A-CAD232CBBAEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardsCore.Test.MSTest.Uitwerking", "WizardsCore.Test.MSTest.Uitwerking\WizardsCore.Test.MSTest.Uitwerking.csproj", "{A9F2D9A1-0C15-4C96-872A-CAD232CBBAEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsCore.Test.xUnit.Uitwerking", "WizardsCore.Test.xUnit.Uitwerking\WizardsCore.Test.xUnit.Uitwerking.csproj", "{1FEFB7EE-B04F-490B-86B7-01AFE570D9DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardsCore.Test.xUnit.Uitwerking", "WizardsCore.Test.xUnit.Uitwerking\WizardsCore.Test.xUnit.Uitwerking.csproj", "{1FEFB7EE-B04F-490B-86B7-01AFE570D9DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uitwerking", "Uitwerking", "{756B7A56-2824-4F8B-BE8E-E8AE043FB24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsCore.Test.NUnit", "WizardsCore.Test.NUnit\WizardsCore.Test.NUnit.csproj", "{1E315546-73EF-49D6-9BEB-8A160C4769CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,17 @@ Global
 		{1FEFB7EE-B04F-490B-86B7-01AFE570D9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FEFB7EE-B04F-490B-86B7-01AFE570D9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FEFB7EE-B04F-490B-86B7-01AFE570D9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E315546-73EF-49D6-9BEB-8A160C4769CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E315546-73EF-49D6-9BEB-8A160C4769CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E315546-73EF-49D6-9BEB-8A160C4769CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E315546-73EF-49D6-9BEB-8A160C4769CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9F2D9A1-0C15-4C96-872A-CAD232CBBAEE} = {756B7A56-2824-4F8B-BE8E-E8AE043FB24A}
+		{1FEFB7EE-B04F-490B-86B7-01AFE570D9DF} = {756B7A56-2824-4F8B-BE8E-E8AE043FB24A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8061AF3-4A8C-4033-919C-B8770DFE9D7E}
